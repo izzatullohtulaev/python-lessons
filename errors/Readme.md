@@ -9,3 +9,5 @@ Har qanday dasturchi kod yozishda xato qiladi. Ko'p yozgan odam esa ko'p xato qi
 
 SyntaxError - SINTEKS XATOLIK
 Biz syntax error bilan 3-darsimizda tanishgan edik. Bu eng ko'p uchraydigan xato bo'lib, odatda dasturlash tili qoidalariga amal qilmaslik natijasida kelib chiqadi. Aksar dasturlash muhitlari sintaks xatolikni dastur bajarilishidan avvaloq aniqlab, dasturchiga ishora beradi. Sintaks xatolik bor dasturni Python bajarmaydi.
+
+Batafsil: https://www.youtube.com/watch?v=Zp8hhWN_qwQ&list=PLwsopmzfbOn9Lw5D7a26THpBDgAma1Sus&index=15

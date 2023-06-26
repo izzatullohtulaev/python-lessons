@@ -10,8 +10,10 @@ KODLAR VA JAVOBLAR
 Har bir dars davomida yozilgan kodlar va amaliy mashg'ulotlarning javoblari bizning GithHub sahifamizga yuklangan: https://github.com/anvarnarz/python-darslar
 
 YOUTUBE VA TELEGRAM
-Darslarimizning YouTube kanali: https://github.com/anvarnarz/python-darslar
+Darslarning YouTube kanali: https://youtube.com/mohirdev va https://youtube.com/sariqdev
 
 Telegramdagi manzilimiz: https://t.me/sariqdev
 
 Barcha videolarni yuklab olish uchun: https://t.me/sdvideolar
+
+Eslatma: Biz bu repository'imizni va ichidagi projectlarimizning description'larida https://mohirdev.uz saytining resurslaridan foydalandik

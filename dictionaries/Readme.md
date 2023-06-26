@@ -17,3 +17,5 @@ Keling, nima uchun bu ma'lumot turi lug'at (dictionary) deyilishini tushunish uc
 Xuddi oddiy lug'atlardagi ka'bi Python lug'atidagi ma'lumotlar ham ikki qismdan iborat bo'ladi: kalit so'z va qiymat (ingliz tilida key-value pair yoki kalit so'z-qiymat juftligi deyiladi).
 
 > Dasturlashda ko'p ishlatiladigan atamalarni ingliz tilida yodlab qolish juda muhim! Bu sizga kelajakda yangi ma'lumotlar izlashda, xatolar usitda ishlashda va umuman ish faoliyatingizda ko'p asqotadi. Shuing uchun `variable`, `integer`, `float`, `string`, `list`, `tuple`, `dictionary`, `function`, `loop`, va boshqa so'zlarni yaxshilab o'zlashtirib oling.
+
+Batafsil: https://www.youtube.com/watch?v=s2SsA2_64o4&list=PLwsopmzfbOn9Lw5D7a26THpBDgAma1Sus&index=17

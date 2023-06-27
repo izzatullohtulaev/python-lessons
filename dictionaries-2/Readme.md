@@ -11,4 +11,19 @@ Ushbu darsimizda lug'at elementlarini turli usullar yordamida chiqarishni o'rgan
 
 Ushbu metod yordamida lug'at ichidagi barcha kalit-qiymat juftliklarini ko'rishimiz mumkin.
 
+```
+talaba_0 = {
+    'ism':'alijon',
+    'familiya':'shamshiyev',
+    'yosh':22,
+    'fakultet':'matematika',
+    'kurs':4
+    }
+
+print(talaba_0.items())
+```
+> dict_items([('ism', 'alijon'), ('familiya', 'shamshiyev'), ('yosh', 22), ('fakultet', 'matematika'), ('kurs', 4)])
+
+Bu metodni to'g'ridan-to'g'ri emas, for tsikli yordamida chaqirish orqali lug'atdagi barcha elementlarni tushunarliroq shaklda ko'rishimiz mumkin.
+
 Batafsil: https://www.youtube.com/watch?v=ArIW3EAtNF4&list=PLwsopmzfbOn9Lw5D7a26THpBDgAma1Sus&index=18

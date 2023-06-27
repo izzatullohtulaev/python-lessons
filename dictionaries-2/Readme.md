@@ -11,4 +11,4 @@ Ushbu darsimizda lug'at elementlarini turli usullar yordamida chiqarishni o'rgan
 
 Ushbu metod yordamida lug'at ichidagi barcha kalit-qiymat juftliklarini ko'rishimiz mumkin.
 
-Batafsil: `http://surl.li/immfp`
+Batafsil: https://www.youtube.com/watch?v=ArIW3EAtNF4&list=PLwsopmzfbOn9Lw5D7a26THpBDgAma1Sus&index=18

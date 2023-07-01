@@ -1,34 +1,34 @@
 import random
 
 def find_num_of_pc(max=10):
-    print(f"Keling bir o'yin o'ynaymiz. Men {max} gacha biror son o'yladim.")
-    print("Hozir siz men o'ylagan sonimni topishingiz zarur.")
+    print(f"Lets play a game! I have guessed a number from 1 to {max}.")
+    print("Can you find it?!")
     min = 1
     i = 1
     pc_number = random.randint(min, max)
     while True:
-        guessed_number = int(input(f">>> "))
+        guessed_number = int(input(f"⇨ "))
         if guessed_number==pc_number:
-            print(f"Siz men o'ylagan sonni {i}-urunishda topdingiz. Tabriklayman!")
+            print(f"You have found my guessed number in {i} attempts. Congrats!")
             break
         elif guessed_number>pc_number:
-            print("Men o'ylagan son bundan kichikroq!")
+            print("My number is less than that!")
             i+=1
         else:
-            print("Men o'ylagan son bundan kattaroq!")
+            print("My number is more than that!")
             i+=1
     return i   
 
 def find_num_of_user(max = 10):
-    print(f"Endi siz {max} gacha son o'ylang. Men uni topishga harakat qilaman.")
+    print(f"Now, guess the number from 1 to {max} and I will find it in several attempts!.")
     i = 1
     min = 1
-    input("Agar son o'ylagan bo'lsangiz biror tugmani bosing")
+    input("If you already chose the number, press ↲Enter")
     while True:
         guess_num_pc = random.randint(min, max)
-        tasdiq = input(f"Siz {guess_num_pc} ni o'yladingiz: to'g'ri(t), kattaroq(+), kichikroq(-)\n>>>")
+        tasdiq = input(f"You have guessed {guess_num_pc}: correct(c), more(+), less(-)\n⇨")
         if tasdiq=='t':
-            print(f"Siz o'ylagan sonni men {i}-urinishda topdim!")
+            print(f"I have found in {i} attempts")
             break
         elif tasdiq=='+':
             min=guess_num_pc+1
@@ -42,8 +42,8 @@ def play():
     print("\n")
     taxmin_pc = find_num_of_user()
     if taxmin_user>taxmin_pc:
-        print("Men yutdim!\nsiz : kompyuter\n  "+str(taxmin_user), ':', taxmin_pc)
+        print("I won the game!\nyou : pc\n  "+str(taxmin_user), ':', taxmin_pc)
     elif taxmin_user<taxmin_pc:
-        print("Siz yutdingiz!\nsiz : kompyuter\n  "+str(taxmin_user), ' :', taxmin_pc)
+        print("You won the game!\nyou : pc\n  "+str(taxmin_user), ' :', taxmin_pc)
     else:
-        print("Durrang!")
+        print("Draw!")
